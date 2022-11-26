@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revenge", "Revenge\Revenge.csproj", "{9B842F51-933A-405A-9240-1FFA35122BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B842F51-933A-405A-9240-1FFA35122BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B842F51-933A-405A-9240-1FFA35122BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B842F51-933A-405A-9240-1FFA35122BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B842F51-933A-405A-9240-1FFA35122BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91818382-15B8-4FB9-8E95-FDFA28A8D69E}
+	EndGlobalSection
+EndGlobal
