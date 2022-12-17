@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="rage-sharpN">
+      <HintPath>..\..\..\dotnet\runtime\rage-sharpN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

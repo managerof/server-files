@@ -1,0 +1,86 @@
+.container
+    max-width: 1009px
+    margin: 207px auto
+
+.registr-window
+    &__block
+        display: flex
+        width: 1009px
+        height: 666px
+        background: linear-gradient(180deg, #222229 0%, rgba(67, 7, 61, 0.7) 100%, #43073D 100%), linear-gradient(90.04deg, #222229 0.03%, #000000 78.32%), linear-gradient(180deg, rgba(32, 32, 42, 0) 10.24%, #20202A 100%)
+    &__data-block
+        width: 434px
+    &__title
+        width: 100%
+        &-name
+            margin: 38px auto 6px auto
+            text-align: center
+            font-family: Roboto-Medium
+            font-size: 30px
+            line-height: 35px
+            color: #FFFFFF
+        &-hr
+            margin: 0 auto 44px auto
+            width: 324px
+            border: 1px solid #FF5B79
+
+    &__user-info
+        width: 324px
+        margin: 0 auto
+    &__form
+        position: relative
+        &-title
+            font-family: Roboto-Regular
+            font-style: normal
+            font-size: 14px
+            color: #FFFFFF
+            margin-bottom: 10px
+        &-hr
+            color: #8692A6
+            // color: $main-color
+            border-radius: 6px
+            width: 298px
+            height: 1px
+            margin: 10px 0 24px 0
+        &-input
+            background: none
+            border: none
+            height: 19px
+            width: 247px
+            color: white
+            font-family: Roboto-Bold
+            font-size: 14px
+            line-height: 18px
+            outline: none
+            margin-left: 32px
+        &-img
+            position: absolute
+            top: 36px
+            // vertical-align: middle
+    &__agreement-user, &__agreement-rules
+        font-family: Roboto-Regular
+        font-size: 17px
+        color: #FFFFFF
+        margin-bottom: 2px
+        &-link
+            color: #FFFFFF
+            &:hover
+                transition: 0.2s all
+                color: $main-color
+    &__agreement-user
+        margin-top: 30px
+
+.registr-window__buttons-container
+    width: 298px
+
+.registr-window__buttons
+    margin-top: 30px
+    margin-bottom: 38px
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+.icon-back
+    margin-right: 10px
+    transform: translateY(-15%)
+
